@@ -5,7 +5,7 @@ Given(/^there is a post titled "(.*)" with content "(.*)"$/) do |title, content|
 end
 
 When(/^I am on the homepage$/) do
-  visit "/"
+  visit root_path
 end
 
 Then(/^I should see the "(.*)" post with content "(.*)"$/) do |title, content|
